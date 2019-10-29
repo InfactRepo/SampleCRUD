@@ -5,7 +5,7 @@ var sql = require("mssql");
     // Configuration object for your database
     var config = {
         user: 'sa',
-        password: 'sam@cinglevue123',
+        password: '',
         server: 'localhost', 
         database: 'sample_crud' 
     };
