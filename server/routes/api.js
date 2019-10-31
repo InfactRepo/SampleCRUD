@@ -3,6 +3,7 @@ const express = require('express');
 const router = express.Router();
 //var Connection = require('tedious').Connection;
 var sql = require("mssql");
+<<<<<<< HEAD
 // Configuration object for your database
 var config = {
     user: 'sa',
@@ -10,6 +11,15 @@ var config = {
     server: 'localhost', 
     database: 'sample_crud' 
 };
+=======
+    // Configuration object for your database
+    var config = {
+        user: 'sa',
+        password: '',
+        server: 'localhost', 
+        database: 'sample_crud' 
+    };
+>>>>>>> 99f77685637bdb99c7435f68f48412e10aafe1db
 
 // Error handling
 const sendError = (err, res) => {
